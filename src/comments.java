@@ -6,7 +6,7 @@ public class comments {
         mutlti line comment
          */
         /**
-         * this java documents hi
+         * this java documents
          */
     }
 }

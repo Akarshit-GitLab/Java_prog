@@ -124,7 +124,7 @@ public class Tic_Tac_Toe_Game {
         if (winner.equalsIgnoreCase("draw")) {
             System.out.println("It's a draw! Thanks for playing.");
         } else {
-            System.out.println("Congratulations! " + winner + "'s have won! Thanks for play.");
+            System.out.println("Congratulations! " + winner + "'s have won! Thanks for pla.");
         }
 
         in.close();

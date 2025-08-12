@@ -111,7 +111,7 @@ public class Tic_Tac_Toe_Game {
                     printBoard();
                     winner = checkWinner();
                 } else {
-                    System.out.println("Slot already taken; re-enter slot number:");
+                    System.out.println("Slot already taken; re-enter slot :");
                 }
 
             } catch (InputMismatchException e) {

@@ -3,7 +3,7 @@ package Challange;
 import java.util.Scanner;
 
 //        Create a program to find the sum and avg of all elements in an array
-public class Array_problems_1 {
+ class Array_problems_1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("welcome to sum and average ");
@@ -24,9 +24,9 @@ public class Array_problems_1 {
 
         return sum;
     }
-    public static int average (int[] numArray){
-        long sum =sum(numArray);
+    public static double average (int[] numArray){
+        double sum =sum(numArray);
 
-        return (int) (sum/numArray.length);
+        return (double) (sum/numArray.length);
     }
 }
